@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('CDN/bootstrap.ejs')%>
+  </head>
+  <body class="new_user_body">
+        <%- include('Navbar/CommonMenu.ejs') %>
+
+    <div class="bg-dark p-3 mt-1 mb-1 rounded">
+        <% if(locals.mesg){%>
+            <div id="result">
+        <h2 class="submit m-3 ms-5 me-5"> <%=mesg%> </h2>
+        </div>
+        <script>
+            function hide_messege(){
+                document.getElementById('result').innerHTML='';
+            }
+            setTimeout(hide_messege,5000)
+        </script>
+    <%}%>
+<form class="form " action="/Login" method="post">
+    <p class="title">Login </p>
+    <p class="message">Login now and get full access to our app. </p>
+      
+    <label>
+        <input class="input" type="email" placeholder="" name="email" required>
+        <span>Email</span>
+    </label>
+        
+    <label>
+        <input class="input" type="password" placeholder="" name="password" required>
+        <span>Password</span>
+    </label>
+    
+    <button class="submit">Login</button>
+    <p class="signin">Did't have an acount ? <a href="/NewUser">SignUp</a> </p>
+</form>
+
+    </div>
+    <%- include('Footer/Home_Footer.ejs') %>
+
+
+  </body>
+  </html><!DOCTYPE html>
+  

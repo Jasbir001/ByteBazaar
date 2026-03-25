@@ -1,0 +1,245 @@
+
+
+.common_menu a{
+    color: white;
+}
+.common_menu a:hover{
+    color: 	#ab20fd;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo{
+    color: #fbf8fd;
+    font-size: 30px;
+    font-weight: bold;
+}
+.marquee{
+    background-color: #200589;
+    color: #fbf8fd;
+}
+/* ------------------card home css ----------------------------------------- */
+.outer-card-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card-home{
+    color:   #7d12ff;
+    overflow: hidden;
+    /* border: 2px solid #ab20fd; */
+    box-shadow: 0px 0px 10px #6262625a;
+    height: 26rem;
+    width: 18rem;
+    border-radius: 0.5vw;
+        background-color: #fbf8fd;
+margin: 1vw 0.6vw;
+}
+.card-home:hover{
+    box-shadow: 0px 0px 15px #ac20fd45;
+    scale: 1.01;
+    
+}
+
+.card-home img{
+    height: 100%;
+    width: 100%;
+}
+.img-div-home-card{
+    height: 65%;
+}
+.text-div-home-card{
+    padding: 1px 10px;
+}
+.text-div-home-card p{
+    color: black;
+}
+/* =============button======= */
+.button-home{
+    border: none;
+    border-radius: 0.5vw;
+    padding: 10px 15px;
+    color: white;
+    background: linear-gradient(135deg, #7d12ff, #ab20fd);
+}
+/* ========================= */
+
+/* --------------------------card home css end ----------------------------- */
+
+.form-home{
+    padding: 2vw;
+}
+.form-conatct-home-div{
+    height: 80vh;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.footer{
+    background-color: black;
+    color: #fbf8fd;
+}
+/* ------------------------------------------------------------------------ */
+
+.contact-div{
+    height: 30vw;
+    /* border: 2px solid black; */
+    padding: 2vw;
+}
+.contact-text-color-heading{
+    color: #7d12ff;
+}
+
+
+
+/* ----------registration form */
+.form {
+    
+    margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #1a1a1a;
+  color: #fbf8fd;
+  border: 1px solid #333;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #7d12ff;;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: #7d12ff;;
+}
+
+.message, 
+.signin {
+  font-size: 14.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.signin a {
+  color: #7d12ff;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  background-color: #333;
+  color: #fbf8fd;
+  width: 100%;
+  padding: 20px 05px 05px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.form label .input + span {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 12.5px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+  color: #7d12ff;
+  top: 0px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.input {
+  font-size: medium;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fbf8fd;
+  font-size: 16px;
+  transform: .3s ease;
+    background: linear-gradient(135deg, #7d12ff, #ab20fd);
+}
+
+.submit:hover {
+    background: linear-gradient(135deg,#ac20fd5e, #7d12ff70 );
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/*  */
+.new_user_body{
+        /* background: linear-gradient(135deg,#ac20fd, #7d12ff ); */
+        background-color: black;
+
+}
+
+/*  */
+
+/* ----------registration form end */
