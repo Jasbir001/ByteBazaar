@@ -55,7 +55,7 @@ npm run dev
 
 5. Open in browser:
 
-http://localhost:3000
+http://localhost:8123
 
 ## 🧠 Learning Outcomes
 
