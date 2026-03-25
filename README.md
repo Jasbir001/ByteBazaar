@@ -35,7 +35,7 @@ A modern full-stack e-commerce web application built using **Node.js, Express, a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Jasbir001/ByteBazaar.git
+git clone https://github.com/Jasbir001/ByteBazaar
 ```
 
 2. Navigate into the project directory:
