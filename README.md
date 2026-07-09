@@ -6,7 +6,7 @@ A modern full-stack e-commerce web application built using **Node.js, Express, a
 
 ## 🚀 Features
 
-* 🛍️ Product listing and display
+* 🛍️ Product listing and display 
 * 🔄 Dynamic routing using Express
 * 🎨 EJS templating for server-side rendering
 * 📁 Organized MVC-like folder structure
