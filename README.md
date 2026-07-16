@@ -1,7 +1,6 @@
 # 🛒 ByteBazaar (E-commerce Web App)
 
 A modern full-stack e-commerce web application built using **Node.js, Express, and EJS**, designed to showcase dynamic content rendering and clean UI structure.
-   
 ---
 
 ## 🚀 Features
